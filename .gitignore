@@ -1,0 +1,24 @@
+# Python/Conda environment
+miniconda3/
+__pycache__/
+*.pyc
+
+# ROS2/Build artifacts
+build/
+install/
+log/
+.ros/
+.rviz2/
+rosbag2_*.db3
+
+# LiDAR/ML outputs
+pcd_outputs/
+mmdetection3d_cpu38/
+
+# Other system files
+*.pdf
+*.gv
+.git-credentials
+.bash_history
+.conda/
+.nv/

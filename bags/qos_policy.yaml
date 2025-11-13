@@ -1,0 +1,4 @@
+/ptl/scan:
+  durability: transient_local
+  history: keep_all
+  reliability: [system_default, reliable, best_effort, unknown]
